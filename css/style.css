@@ -1,0 +1,64 @@
+/*font-family: 'Electrolize', sans-serif;*/
+
+body{
+    background: linear-gradient(45deg, #0F2027, #203A43, #2C5364);
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    color: #aeaeae;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+section{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input{
+    width: 99.5%;
+    text-align: right;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: bold;
+    background: rgb(194, 194, 194);
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+ul li{
+    background: #b4d3e3;
+    width: 24.71%;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ul li:hover{
+    background: #83d6ff;
+}
+
+#igual{
+    width: 100%;
+}
