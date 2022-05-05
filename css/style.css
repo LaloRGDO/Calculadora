@@ -40,12 +40,12 @@ ul{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2px;
+    box-sizing: border-box;
 }
 
 ul li{
     background: #b4d3e3;
-    width: 24.71%;
+    width: 25%;
     font-family: 'Electrolize', sans-serif;
     font-weight: bold;
     font-size: 2rem;
@@ -53,6 +53,8 @@ ul li{
     text-align: center;
     cursor: pointer;
     border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid grey;
 }
 
 ul li:hover{
@@ -61,4 +63,13 @@ ul li:hover{
 
 #igual{
     width: 100%;
+}
+
+
+/*MEDIA QUERYS*/
+
+@media(max-width:767px){
+    section{
+        width: 80%;
+    }
 }
